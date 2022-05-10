@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager</title>
+    <link rel="stylesheet" href="/css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@500&family=Saira+Condensed:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="head">
+        <h1><mark> -: My To-Do list :-</mark></h1>
+    </div>  
+<div class="input">
+    <div class="scroll">
+    <table id="taskTable" >
+        <tr class="first">
+            <td>Date</td>
+            <td>Task Name</td>
+            <td >Description </td>
+            <td colspan="2">Action</td>
+        </tr>
+        <tr  class="border">
+            <td>
+                <input type="date" id="date" name="date">
+            </td>
+            <td>
+                <input type="text" id="task" placeholder="Task Name">
+            </td>
+            <td>
+                <textarea name="" id="textarea" cols="40" rows="1" placeholder="Task Desc"></textarea>
+            </td>
+            <td>
+                <input class="btn" type="button" id="button" value="ADD">
+            </td>
+            <td>
+                <input class="update" type="button" id="update" value="Update">
+            </td>
+        </tr>
+</table>
+</div>
+</div>
+<!-- <div class="data" id ="list">Database data is :</div> -->
+
+<script src="/js/main.js"></script>
+</body>
+</html>
